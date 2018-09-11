@@ -1,0 +1,70 @@
+#video_controls {
+	width: 348px;
+	height: 20px;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#video_controls div {
+	float: left;
+	height: 20px;
+	line-height: 30px;
+}
+
+.player-button {
+	width: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#progress {
+	position: relative;
+	width: 165px;
+	background-image: url(../images/audioBar.png);
+	background-repeat: repeat;
+}
+
+#play_progress {
+	position: absolute;
+	background-color: #F90;
+}
+
+#load_progress {
+	position: absolute;
+	background-color: #EEE;
+}
+
+#time {
+  width: 120px;
+  text-align: center;
+}
+.artHead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFF;
+}
+.byline1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	color: #FFF;
+	line-height: 20px;
+}
+.byline2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+.artsBody {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #fff;
+}

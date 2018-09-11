@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+<title>Fall Arts Preview</title>
+	<link rel="stylesheet" href="css/arts.css" type="text/css" media="screen"/>
+   
+	
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tinyscrollbar.min.js"></script>
+	<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+		});
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_setTextOfLayer(objId,x,newText) { //v9.0
+  with (document) if (getElementById && ((obj=getElementById(objId))!=null))
+    with (obj) innerHTML = unescape(newText);
+}
+function MM_effectAppearFade(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+
+
+    </script>	
+<style type="text/css">
+body {
+	background-color: #000;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+#wrapper {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 800px;
+	height: 600px;
+	z-index: 1;
+	background-image: url(images/artsBack.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#mainContent {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 800px;
+	height: 600px;
+	z-index: 3;
+}
+#myScroll {
+	position:absolute;
+	left:12px;
+	top:5px;
+	width:390px;
+	height:399px;
+	z-index:5;
+}
+#nav {
+	position: absolute;
+	left: 0px;
+	top: 527px;
+	width: 800px;
+	height: 54px;
+	z-index: 5;
+}
+#scrollFade {
+	position:absolute;
+	left:377px;
+	top:7px;
+	width:450px;
+	height:485px;
+	z-index:3;
+	background-image: url(images/artsFade.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.artHead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 48px;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFF;
+	font-weight: bold;
+}
+.byline2 {
+	font-style: italic;
+	font-size: 11px;
+	font-weight: normal;
+}
+.byline1 {
+	font-style: italic;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+<!--
+#loader {
+	height: 600px;
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 1;
+	display: none;
+}
+#loader img { display:none; }
+#loader .is-showing { display: inline; }
+#edge {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 800px;
+	height: 600px;
+	z-index: 1;
+}
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('images/arts3PhilOver.png','images/arts4DaliOver.png','images/arts5LatinaOver.png','images/arts6SingerOver.png','images/arts7OperaOver.png','images/arts8DancerOver.png','images/arts0IntroOver.png,'images/artsImage1Ray','images/artsImage2Tug.png','images/artsImage3Phil.png','images/artsImage4Dali.png','images/artsImage5Latina.png','images/artsImage6Singer.png','images/artsImage7Opera.png','images/artsImage8Dancer.png','images/arts1RayOver.png','images/arts2GreekOver.png')">
+<div id="wrapper">
+  <div id="mainContent">
+    <div id="nav"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav1','','images/arts1RayOver.png',1)"><img src="images/arts1RayUp.png" alt="Ray the Musical" name="nav1" width="99" height="54" border="0" id="nav1" onclick="MM_setTextOfLayer('overview','','&lt;img src=&quot;images/artsImage1Ray.jpg&quot; width=&quot;348&quot; height=&quot;242&quot; alt=&quot;Ray: The Musical&quot; /&gt;&lt;span class=&quot;artHead&quot;&gt;&lt;br /&gt;              Ray: The Musical&lt;/span&gt;&lt;br /&gt;                &lt;span class=&quot;byline1&quot;&gt;BY EVAN HENERSON&lt;/span&gt; &lt;span class=&quot;byline2&quot;&gt;&lt;br /&gt;                LA.COM&lt;/span&gt;                &lt;p&gt;Just in case the 2004 movie didn’t give you enough of a Ray Charles fix, the producers of said film — and the Pasadena Playhouse — are back with more.&lt;/p&gt;                &lt;p&gt;Only this time, it’s live.&lt;br /&gt;                  “Ray Charles Live: a New Musical” finds Charles at his last recording session, looking back at events in his life with the “studio audience.” Three actors play the title characters at various stages of his life.&lt;/p&gt;                &lt;p&gt;And what could “Ray Charles Live” possibly tell us that the cinema’s “Ray” didn’t? &lt;/p&gt;                &lt;p&gt;“For the musical, the focus is more on who the man is emotionally and how he functioned internally, and how all of that affected his music,” says Pasadena Playhouse Artistic Director Sheldon Epps who will also direct the production. “The movie told you the story and the musical should tell you the man. That’s the way I’m explaining it to everybody.”&lt;/p&gt;                &lt;p&gt;The music is Charles’s as well as by artists who influenced him.&lt;/p&gt;                &lt;p&gt;“He didn’t write all of it, but there is nothing in the show that Ray Charles didn’t sing at some point,” says Epps. “The big difference is that songs that are tremendously popular as Ray Charles songs are spread amongst the other characters in his life. Not all the songs come directly from the mouth of Ray Charles.”&lt;/p&gt;                &lt;p&gt;As if Charles’s music isn’t enough of a selling point, the musical’s book is written by Pulitzer prize winner Suzan-Lori Parks who somehow found time to pen her first libretto in the midst of writing “365 Days/365 Plays.”&lt;/p&gt;                &lt;p&gt;“Ray Charles” came to the Playhouse two years ago when Stuart Benjamin, producer of the film “Ray,” approached Epps about his venue possibly producing a stage retelling of Charles’s life.&lt;/p&gt;                &lt;p&gt;“I immediately jumped on it,” says Epps whose last directing project at the Playhouse was a starry version of August Wilson’s “Fences.” “I’m a fan of Ray Charles’s music, but by no means would I describe myself as an expert. I’ve become that doing the research.”&lt;/p&gt;                &lt;p&gt;“Ray Charles Live” opens Nov. 9 at the Pasadena Playhouse. (626) 356-7529&lt;/p&gt;                &lt;br /&gt;&lt;/p&gt;');MM_effectAppearFade('overview', 2000, 0, 100, false)" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav2','','images/arts2GreekOver.png',1)"><img src="images/arts2GreekUp.png" alt="Tug of War" name="nav2" width="88" height="54" border="0" id="nav2" onclick="MM_setTextOfLayer('overview','','&lt;span class=&quot;artHead&quot;&gt;&lt;img src=&quot;images/artsImage2Tug.jpg&quot; width=&quot;348&quot; height=&quot;242&quot; alt=&quot;Tug of War&quot; /&gt;Tug of War&lt;/span&gt;&lt;br /&gt;              &lt;span class=&quot;byline1&quot;&gt;BY FRED SHUSTER&lt;/span&gt; &lt;span class=&quot;byline2&quot;&gt;&lt;br /&gt;              LA.COM&lt;/span&gt;&lt;br /&gt;              &lt;br /&gt;              Ah the dramatists of ancient Rome. The carnage, the bloodshed, the breast beating and breast baring.&lt;p&gt;But maybe not this time. “Very serious, very academic,” says Meryl Friedman, addressing the tone her production of the Plautus-inspired “Tug of War” will not adapt when it opens Sept. 6 at the Getty Villa.&lt;/p&gt;&lt;p&gt;Adapted from Plautus’s farce “Rudens,” “Tug of War” finds a groom looking for his bride, an old man in search of his missing daughter and a pair of slaves orchestrating mayhem. The production is the second stage work to play the Villa’s outdoor Barbara and Lawrence Fleischman Theater.&lt;/p&gt;              &lt;p&gt;Friedman, who directed an adaptation of Aristophanes’s “The Wasps” at the Villa’s auditorium space, says that the demands of a picturesque outdoor venue like the Fleischman make things challenging.&lt;/p&gt;              &lt;p&gt;On the other hand, those challenges are nothing that the actors of the playwright’s time wouldn’t have faced. Plautun farces would not have been staged in grand amphitheaters, but at bustling street fairs and on crude, hastily assembled wooden platforms at temple shrines.&lt;/p&gt;              &lt;p&gt;“There were these small troupes of roving ragtag actors. Many were immigrants or newly released slaves who became poor working class actors. It was the original bus and truck company,” says Friedman. “There would be a lot of breaking of the fourth wall as actors would engage with the audience and compete for attention. This is sort of the wellspring from which commedia and vaudeville sprang.”&lt;/p&gt;              &lt;p&gt;Students of classical drama may well recognize the narrative seeds sewn by Plautus and picked up by the likes of Shakespeare, Moliere, Carlo Goldoni and Stephen Sondheim whose musical “A Funny Thing Happened on the Way to the Forum” was based on several Plautus plays. &lt;/p&gt;              &lt;p&gt;The inspirational trickle-down makes sense given that Plautus himself would have been a narrative borrower.&lt;/p&gt;              &lt;p&gt;“All of the general plotting, the bawdiness, the use of slaves and slave relationship, that’s all sort of a precursor to what would happen in Italian Commedia del Arte,” says Friedman. “I’m all for stealing from the best.” &lt;/p&gt;              &lt;p&gt;“Tug of War” opens Sept. 6 at the Getty Villa. Call (310) 440-7300 or visit www.getty.edu.');MM_effectAppearFade('overview', 1000, 0, 100, false)" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav3','','images/arts3PhilOver.png',1)"><img src="images/arts3PhilUp.png" alt="Classical preview" name="nav3" width="87" height="54" border="0" id="nav3" onclick="MM_setTextOfLayer('overview','','&lt;img src=&quot;images/artsImage3Phil.jpg&quot; width=&quot;348&quot; height=&quot;242&quot; alt=&quot;Classical Preview&quot; /&gt;&lt;span class=&quot;artHead&quot;&gt;&lt;br /&gt;              Classical preview&lt;/span&gt;&lt;br /&gt;              &lt;span class=&quot;byline1&quot;&gt;BY FRED SHUSTER &lt;/span&gt; &lt;span class=&quot;byline2&quot;&gt;&lt;br /&gt;                LA.COM&lt;/span&gt;&lt;br /&gt;                &lt;p&gt;Classical music buffs can get an early look at the L.A. Philharmonic’s next music director during the orchestra’s forthcoming season.&lt;br /&gt;                  Venezuelan conductor Gustavo Dudamel won’t officially take the baton from current conductor Esa-Pekka Salonen until the 2009-10 season, but he’ll appear at Disney Hall on Nov. 1 and 2 with the SimÛn BolÌvar Youth Orchestra, returning to conduct the Philharmonic for two weeks of concerts in March and April in the New Year.&lt;/p&gt;                &lt;p&gt;“Playing with the Los Angeles Philharmonic in the magnificent Walt Disney Concert Hall is a great privilege and I look forward to many happy years together,” Dudamel, 26, said.&lt;/p&gt;                &lt;p&gt;Meanwhile, the L.A. Phil’s new season, which opens Sept. 29 and runs through June 1, takes in the seven symphonies and various orchestral works of Sibelius, conducted by fellow Finland native Salonen. It’s the orchestra’s fifth season at Disney Hall.&lt;/p&gt;                &lt;p&gt;Other highlights of the season include:&lt;/p&gt;                &lt;p&gt;The rescheduled U.S. premiere of Saariaho’s La &lt;br /&gt;                  Passion de Simone, with soprano Dawn Upshaw as soloist, with chorus and Salonen conducting the Philharmonic.&lt;/p&gt;                &lt;p&gt;World premieres of new works by Gabriela Lena Frank, Michael Gordon, Oliver Knussen, Harold Meltzer and Terry Riley, and U.S. premieres of works by Kaija Saariaho and Thomas AdËs.&lt;/p&gt;                &lt;p&gt;Salonen leading the Phil in Sibelius’ Lemmink‰inen’s Return and Symphony No. 2, as well as his own Wing on Wing, with sopranos Anu and Piia Komsi in their Disney debuts.&lt;/p&gt;                &lt;p&gt;Celebrity recitals by some of the world’s most recognized virtuosos: violinists Midori, Itzhak Perlman and Anne-Sophie Mutter (in her Disney Hall debut), and pianists Lang Lang and Andr·s Schiff, who begins a two-year survey of Beethoven’s complete Piano Sonatas&lt;/p&gt;                &lt;p&gt;A special one-time collaboration by Portuguese fado singer Mariza and acclaimed architect Frank Gehry.&lt;br /&gt;                  Dudamel leading his 250-piece Simon BolÌvar Youth Orchestra in two concerts.&lt;br /&gt;                  intoxication.”&lt;/p&gt;                &lt;br /&gt;');MM_effectAppearFade('overview', 1000, 0, 100, false)" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav4','','images/arts4DaliOver.png',1)"><img src="images/arts4DaliUp.png" alt="Salvador  Dali" name="nav4" width="91" height="54" border="0" id="nav4" onclick="MM_setTextOfLayer('overview','','&lt;span class=&quot;artHead&quot;&gt;&lt;img src=&quot;images/artsImage4Dali.png&quot; width=&quot;348&quot; height=&quot;242&quot; alt=&quot;Dali on Film&quot; /&gt;&lt;br /&gt;              Dali on film&lt;/span&gt;&lt;br /&gt;                &lt;span class=&quot;byline1&quot;&gt;BY SANDRA BARRERA&lt;/span&gt; &lt;span class=&quot;byline2&quot;&gt;&lt;br /&gt;                LA.COM&lt;/span&gt;&lt;br /&gt;              &lt;p&gt;When it comes to surrealism, Salvador Dali is the first person that springs to mind. &lt;/p&gt;                              &lt;p&gt;Dali’s love of film is referenced in his earliest works, which were driven by both his wild imagination and interest in Freudian theory. He also collaborated with Spanish director Luis Buouel on the 1929 “Un Chien Andalou.” &lt;/p&gt;                &lt;p&gt;“He realized that a lot of his own phobia were a very fertile terrain for creation,” says Sara Cochran, co-curator of the “Dali” exhibit. “For surrealism, itself, I think Dali recognized surrealists early on and their approach to the unconscious, their embrace of the irrational.”&lt;/p&gt;                &lt;p&gt;Dali courted the irrational.&lt;/p&gt;                &lt;p&gt;But just as he brought cinematography technique to his drawings and paintings, his perspective of an unstable universe would find its way onto the big screen, from his work with BuÒuel to Disney.&lt;/p&gt;                &lt;p&gt;Included in the exhibition are a number of unrealized film projects, one which he planned for the Marx brothers.&lt;/p&gt;                &lt;p&gt;“Sometimes I wake up in the middle of the night and I am terribly disappointed that that did not come to fruition,” Cochran says. “I think that a collaboration between the Marx Brothers and Dali would have been extraordinary.”&lt;/p&gt;                &lt;p&gt;Dali had met Harpo Marx in Paris in 1936. &lt;/p&gt;                &lt;p&gt;A year later, while on a trip to New York, the painter flew to Los Angeles to pay his newly aquainted friend a visit. That’s when he began contemplating the idea of a collaboration.&lt;/p&gt;                &lt;p&gt;The premise? A Spanish businessman exiled to America falls in love with a surrealist woman, who only appears with her head covered by flowers. &lt;/p&gt;                &lt;p&gt;And she’s best friends with the Marx brothers.&lt;/p&gt;                &lt;p&gt;“There’s different images that have been fleshed out that draw on things that he thought on before such as the May West lip couch, which is done in some of the images of the surrealist woman’s apartment,” Cochran says. “And there’s a scene in which Groucho is the sheeba of big business and has many arms, answering at one point a lobster telephone.&lt;/p&gt;                &lt;p&gt;“It’s rather madcap and delightful.”&lt;/p&gt;                &lt;p&gt;The exhibit continues through Jan. 6. Tickets go on sale Sept. 11 and can be purchased at www.lacma.org, (877) 522-6225 or on site at the LACMA box office.&lt;/p&gt;');MM_effectAppearFade('overview', 1000, 0, 100, false)" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav5','','images/arts5LatinaOver.png',1)"><img src="images/arts5LatinaUp.png" alt="Julieta  Venegas" name="nav5" width="87" height="54" border="0" id="nav5" onclick="MM_setTextOfLayer('overview','','&lt;img src=&quot;images/artsImage5Latina.jpg&quot; width=&quot;344&quot; height=&quot;232&quot; alt=&quot;Julieta Venegas&quot; /&gt;&lt;span class=&quot;artHead&quot;&gt;&lt;br /&gt;              Julieta Venegas&lt;/span&gt;&lt;br /&gt;              &lt;span class=&quot;byline1&quot;&gt;BY FRED SHUSTER &lt;/span&gt; &lt;span class=&quot;byline2&quot;&gt;&lt;br /&gt;                LA.COM&lt;/span&gt;&lt;br /&gt;                &lt;p&gt;The accordion just isn’t sexy — until you hear the squeezebox confessionals of Julieta Venegas.&lt;br /&gt;                Belting out scalding Mexican rock, the multi-talented singer boasts an eclectic sound that draws loyal audiences in the U.S., Latin America and Europe. Her music has been compared with that of Tori Amos, Fiona Apple and Bjork in its bold creativity.&lt;/p&gt;                &lt;p&gt;“I write about love, the beginning and the end of it,” Venegas said from her home in Mexico City. “It’s what inspires me. Until a few years ago, I’d never written a happy love song before. I knew about feeling sad and melancholy, but never about feeling confident.”&lt;/p&gt;                &lt;p&gt;Fans can be sure Venegas will deliver a memorable show upon her return to Los Angeles next month with the Antidoto 2007 rock en espaÒol fest, also featuring Los Amigos Invisibles, Jumbo, Lucybell and Allison, on Sept. 15 at the Greek Theatre.&lt;/p&gt;                &lt;p&gt;Mixing modern rock with folk music, Venegas’ use of the accordion attracts attention.&lt;/p&gt;                &lt;p&gt;“When I started playing it, it wasn’t just for norteoo music, it was because I loved how Los Lobos and Tom Waits used it,” she said. “It’s a very organic instrument. There’s something magical about the strength of it.”&lt;/p&gt;                &lt;p&gt;Born in Long Beach, Venegas grew up in Tijuana with a foot on both sides of the border. Through films, TV and music, she soaked up the language and culture around her.&lt;/p&gt;                &lt;p&gt;“It was easier to watch American TV than Mexican TV growing up,” Venegas said. “That’s how I learned English. You learn from TV as a kid.”&lt;/p&gt;                &lt;p&gt;It was with her third album, “Si,” that things heated up for the singer. In 2004, she picked up both a Latin Grammy and an MTV Latino award for the album, establishing her as a star. Her latest release, “Limun y Sal,” which won a Grammy this year for best Latin pop album, is filled with songs of love and relationships gone wrong.&lt;/p&gt;                &lt;p&gt;“You need limun y sal (lime and salt) to enjoy a drink of tequila,” she said. “And love is the same way. We all need the bitterness to appreciate the sweetness and intoxication.”&lt;br /&gt;                  JULIETA VENEGAS&lt;br /&gt;                  What: The Antidoto 2007 rock en espanol fest with Los Amigos Invisibles, Jumbo, Lucybell, Allison, Volumen Cero, Upground and Inbox.&lt;br /&gt;                  Where: Greek Theatre, 2700 N. Vermont Ave., Los Angeles.&lt;br /&gt;                  When: 4 p.m. Sept. 15.&lt;br /&gt;                  How much: $34.75-$74.75.&lt;/p&gt;            &lt;/div&gt;');MM_effectAppearFade('overview', 1000, 0, 100, false)" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav6','','images/arts6SingerOver.png',1)"><img src="images/arts6SingerUp.png" alt="Rufus Wainwright" name="nav6" width="88" height="54" border="0" id="nav6" onclick="MM_setTextOfLayer('overview','','&lt;img src=&quot;images/artsImage6Singer.jpg&quot; width=&quot;344&quot; height=&quot;240&quot; alt=&quot;Rufus Wainwright&quot; /&gt;&lt;span class=&quot;artHead&quot;&gt;&lt;br /&gt;              Rufus Wainwright&lt;/span&gt;&lt;br /&gt;              &lt;span class=&quot;byline1&quot;&gt;BY FRED SHUSTER &lt;/span&gt; &lt;span class=&quot;byline2&quot;&gt;&lt;br /&gt;                LA.COM&lt;/span&gt;&lt;br /&gt;                &lt;p&gt;The music and spirit of Judy Garland will again fill the Hollywood Bowl as singer-songwriter Rufus Wainwright performs her celebrated 1961 concert at the same venue next month.&lt;br /&gt;                Garland came to the Bowl on Sept. 23, 1961, following her acclaimed Carnegie Hall concert, itself the basis of the classic “Judy at Carnegie Hall” album. Forty-six years to the day, Wainwright will sing all the songs she performed that sensational night at the esteemed open-air venue.&lt;/p&gt;                &lt;p&gt;The recreation sold out Carnegie Hall as well as venues in Paris and London.&lt;/p&gt;                &lt;p&gt;“I went through a depression after 9-11 and the start of the Iraq War and all the missed opportunities this country had,” Wainwright said. “But I found when I put on ‘Judy at Carnegie Hall,’ I became completely optimistic and was reminded of all the hope and glory the U.S. once represented.&lt;/p&gt;                &lt;p&gt;“I told a couple of friends that I had an idea to perform the album and saw this light go on in their eyes. It took an army of people to it happen, but it took on a life of its own.”&lt;/p&gt;                &lt;p&gt;“I knew it was a brilliant idea,” Oremus said. “We duplicated Judy’s exact arrangements — except in Rufus’ key — and it was magical. He does great justice to the material and some of it is quite stunning. It’s a lot of fun.”&lt;/p&gt;                &lt;p&gt;In spoken-word segments of the original album, which won five Grammy Awards and has never been out of print, Wainwright speaks to the audience in his own words.&lt;/p&gt;                &lt;p&gt;“The material is so well-built and flexible and sturdy,” Wainwright, 34, said. “It’s hard to screw those songs up if you have any sense of shame in you at all. It’s a testament to the wizardry of the American song.”&lt;/p&gt;                &lt;p&gt;“She’s worked so hard her entire life to try and separate herself from her mother — very successfully, I might add — and I know what that’s like,” he says. “It’s not an easy feat to come out of the shadow of your parents, especially when they’re so well known and loved. So, anything involving her mother is always loaded. But I would love it if she would grace us with her presence.”&lt;/p&gt;                &lt;p&gt;Fred Shuster &lt;br /&gt;                  (818) 713-3676&lt;br /&gt;                  fred.shuster@dailynews&lt;/p&gt;                &lt;p&gt;RUFUS WAINWRIGHT SINGS JUDY GARLAND&lt;br /&gt;                  Where: Hollywood Bowl, 2301 N. Highland Ave., Hollywood.&lt;br /&gt;                  When: 7 p.m. Sept. 23.&lt;br /&gt;                  How much: $7-$147.&lt;/p&gt;            &lt;/div&gt;');MM_effectAppearFade('overview', 1000, 0, 100, false)" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav7','','images/arts7OperaOver.png',1)"><img src="images/arts7OperaUp.png" alt="Los Angeles Opera" name="nav7" width="88" height="54" border="0" id="nav7" onclick="MM_setTextOfLayer('overview','','&lt;img src=&quot;images/artsImage7Opera.jpg&quot; width=&quot;344&quot; height=&quot;242&quot; alt=&quot;L.A. Opera&quot; /&gt;&lt;span class=&quot;artHead&quot;&gt;&lt;br /&gt;              L.A. Opera&lt;/span&gt;&lt;br /&gt;              &lt;span class=&quot;byline1&quot;&gt;BY JIM FARBER &lt;/span&gt; &lt;span class=&quot;byline2&quot;&gt;&lt;br /&gt;                LA.COM&lt;/span&gt;&lt;br /&gt;                &lt;p&gt;Beginning this fall, if you see a man dashing across the street between the Dorothy Chandler Pavilion and the Walt Disney Concert Hall, baton in hand, it’s probably Grant Gershon.&lt;br /&gt;                In May, Gershon became the new choral director and associate conductor of Los Angeles Opera, a post he will hold simultaneously with his position as music director of the Los Angeles Master Chorale. The good news is, they’re right across the street from one another.&lt;/p&gt;                &lt;p&gt;“I’m very pleased about it, and so is my family,” said Gershon, who lives in Eagle Rock with his wife of 20 years, Elissa, 8 year-old daughter Claire, and 5 year-old son Samuel. “At this point in my career it’s great to have this association with these two great companies, though there will be times when I’m literally running back and forth.&lt;/p&gt;                &lt;p&gt;“We’re still defining my role at the Opera,” Gershon continued. “But as chorus master I’ll be preparing and overseeing everything the chorus does this season — and it’s a big season for the ensemble. I’ll also be conducting eight performances over the next two years. Beyond that, I’ll be involved with every production, especially when Pl·cido (Domingo) and James (Conlon, the company’s music director) are out of town, to help oversee the music’s consistency.”&lt;/p&gt;                &lt;p&gt;At the moment, Gershon is focusing his attention on L.A. Opera’s season-opening performances of Beethoven’s ode-to-freedom opera, “Fidelio” (Sept. 8 through Oct. 6) and a grand concert performance of the Verdi “Requiem” (Sept. 9).&lt;/p&gt;                &lt;p&gt;“It’s the ideal combination for me to be starting off with,” he said. “They are both pieces where you can work as much on the pure musical values as you can on the drama. Beethoven’s choral work in ‘Fidelio’ is, I think, right up there with the Ninth Symphony. And you can’t get any more dramatic than the Verdi ‘Requiem.’”&lt;/p&gt;                &lt;p&gt;At 48 (though he hardly looks a day over 35) Gershon said he’s pleased with his new multi-tasking arrangement for several reasons.&lt;/p&gt;                &lt;p&gt;“This last year I’ve done a lot more work in opera, mainly conducting the new opera, ‘The Grapes of Wrath,’ at Minnesota and Utah Opera,” he explained. “But it meant I spent 11 weeks away. One of the perks of this new position is that I’ll get to spend more time at home.”&lt;/p&gt;            &lt;/div&gt;');MM_effectAppearFade('overview', 1000, 0, 100, false)" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav8','','images/arts8DancerOver.png',1)"><img src="images/arts8DancerUp.png" alt="Mozart Dances" name="nav8" width="89" height="54" border="0" id="nav8" onclick="MM_setTextOfLayer('overview','','&lt;img src=&quot;images/artsImage8Dancer.jpg&quot; width=&quot;344&quot; height=&quot;242&quot; alt=&quot;Mozart Dances&quot; /&gt;              &lt;p&gt;&lt;span class=&quot;artHead&quot;&gt;‘Mozart Dances’&lt;/span&gt;&lt;br /&gt;                &lt;span class=&quot;byline1&quot;&gt;BY JIM FARBER &lt;/span&gt; &lt;span class=&quot;byline2&quot;&gt;&lt;br /&gt;              LA.COM&lt;br /&gt;                &lt;/span&gt;&lt;br /&gt;              The music of Wolfgang Amadeus Mozart doesn’t necessarily lend itself to dance interpretation. Unless, that is, it’s within the context of an opera. Or unless you happen to be choreographer Mark Morris whose “Mozart Dances” will make their Southern California premiere in October at the Dorothy Chandler Pavilion.&lt;/p&gt;              &lt;p&gt;“I wouldn’t be surprised if in another life, Mark Morris wasn’t a conductor or a musician. He’s very musical in terms of his choreography,” says Renae Williams, director of dance presentations for the Music Center. “He works a great deal with live music, and that’s the best way to experience that work.”&lt;/p&gt;              &lt;p&gt;Indeed, Morris company committed to performing exclusively to live music in the mid-1990s, and at the Dorothy Chandler Pavilion — home of the Los Angeles Opera and former home to the Los Angeles Philharmonic — live music is what the Mark Morris dancers shall have. The orchestra will include featured pianists Garrick Ohlsson and Yoko Nozaki and will be conducted by Jane Glover.&lt;/p&gt;              &lt;p&gt;“Mozart Dances” was originally commissioned by the Barbican Center in London, New Crowned Hope in Vienna and Lincoln Center in New York. Williams saw the piece performed in New York and will catch it again during a birthday trip to Chicago.&lt;/p&gt;              &lt;p&gt;“To me, it’s the epitome of why he’s so revered,” Williams says. “It’s this sweeping movement that’s his modern aesthetic as well as his underpinning of ballet movement. I think it was George Balanchine who said that choreography to Mozart is not an easy task and here you have an entire piece of movement to it.”&lt;/p&gt;              &lt;p&gt;“For people who have seen his work in the past, there’s definitely going to be a sense of knowing and understanding,” she continues. “Mark might say differently, but that’s my take on it.”&lt;/p&gt;              &lt;p&gt;The 2007-08 Dance at the Music Center series continues in March with American Ballet Theatre’s production of “Swan Lake” followed by visits by Complexions Contemporary Ballet in April and Teatro alla Scala Ballet Company in July.&lt;/p&gt;              &lt;p&gt;The Music Center will also feature “Slow Dancing,” a free video installation highlighting dancers from around the world showing nightly on the plaza Sept. 18-26.&lt;br /&gt;                “Mozart Dances” performs Oct. 20-21 at 7:30p.m. and Oct. 21 at 2 p.m. For tickets, call (213) 365-3500.&lt;br /&gt;              &lt;/p&gt;              &lt;p&gt;                &lt;br /&gt;              &lt;/p&gt;');MM_effectAppearFade('overview', 1000, 0, 100, false)" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nav9','','images/arts0IntroOver.png',1)"><img src="images/arts0Intro.png" alt="Introduction" name="nav9" width="83" height="54" border="0" id="nav9" onclick="MM_setTextOfLayer('overview','','&lt;img src=&quot;images/artsImage0Intro.png&quot; width=&quot;348&quot; height=&quot;243&quot; alt=&quot;Introduction&quot; /&gt;&lt;span class=&quot;artHead&quot;&gt;&lt;br /&gt;              Introduction&lt;/span&gt;&lt;br /&gt;                &lt;span class=&quot;byline1&quot;&gt;BY EVAN HENERSON&lt;/span&gt; &lt;span class=&quot;byline2&quot;&gt;&lt;br /&gt;                LA.COM&lt;/span&gt;&lt;br /&gt;                &lt;br /&gt;                “It Sucks to Be Me,” the characters (puppets, really) complain in a song from the Tony-Winning best musical “Avenue Q.”&lt;/p&gt;              &lt;p&gt; Part homage to “Sesame Street” (It’s Not Easy Being Green,” get it?), the cheeky and definitely adult-themed musical opens at the Ahmanson on Sept. 7. It’s just one of the many fun shows and performers heading for So Cal this autumn.&lt;/p&gt;              &lt;p&gt; (By the way, the “Avenue Q” characters live in a gray outer borough of New York City; so, of course, it sucks being them.)&lt;/p&gt;              &lt;p&gt; On the other hand, we in the sunny Southland where it clearly doesn’t suck get to say hello to Salvadore Dali this fall, with a exhibition of the surrealist’s film-related works at the Los Angeles County Museum of Art; see the L.A. Opera in a rare performance of Beethoven’s only opera, “Fidelio,” and enjoy countless great musical acts — from classical stars Itzhak Perlman, Anne-Sophie Mutter, Lang Lang and Andr·s Schiff at Walt Disney Concert Hall to pop acts like Beyonce, Stevie Wonder, Lucinda Williams, Justin Timberlake, Dave Matthews and the Eagles, who are teaming up with the Dixie Chicks to become the opening concert at the Nokia Theater in downtown L.A. on Oct. 18.&lt;/p&gt;              &lt;p&gt; The 7,100-seat theater is the centerpiece of L.A. Live, a 27-acre entertainment, residential and commercial complex opening later this year across from Staples Center. The complex includes a smaller venue — Club Nokia, which will accommodate about 2,400.&lt;/p&gt;              &lt;p&gt; On Thursday, the American Music Awards announced it would hold its 35th anniversary show at the Nokia Theater on Nov. 18, with an ABC live broadcast marking the national TV debut of the venue.&lt;/p&gt;              &lt;p&gt; What follows is really only the tip of the iceberg. We offer highlights and listings, but continue to go online at LA.COM for updates and more events.              &lt;br /&gt;              &lt;/p&gt;');MM_effectAppearFade('overview', 1000, 0, 100, false)" /></a></div>
+    <div id="scrollFade">
+      <div id="myScroll">
+        <div id="scrollbar1">
+          <div class="scrollbar" id="thumb6">
+            <div class="track" id="thumb7">
+              <div class="thumb" id="thumb8">
+                <div class="end"></div>
+              </div>
+            </div>
+          </div>
+          <div class="viewport" id="viewport2">
+            <div class="overview" id="overview"><img src="images/artsImage0Intro.png" width="348" height="243" alt="Introduction" /><span class="artHead"><br />
+              Introduction</span><br />
+              <span class="byline1">BY EVAN HENERSON</span> <span class="byline2"><br />
+                LA.COM</span><br />
+                <br />
+                “It Sucks to Be Me,” the characters (puppets, really) complain in a song from the Tony-Winning best musical “Avenue Q.”
+<p></p>
+              <p> Part homage to “Sesame Street” (It’s Not Easy Being Green,” get it?), the cheeky and definitely adult-themed musical opens at the Ahmanson on Sept. 7. It’s just one of the many fun shows and performers heading for So Cal this autumn.</p>
+              <p> (By the way, the “Avenue Q” characters live in a gray outer borough of New York City; so, of course, it sucks being them.)</p>
+              <p> On the other hand, we in the sunny Southland where it clearly doesn’t suck get to say hello to Salvadore Dali this fall, with a exhibition of the surrealist’s film-related works at the Los Angeles County Museum of Art; see the L.A. Opera in a rare performance of Beethoven’s only opera, “Fidelio,” and enjoy countless great musical acts — from classical stars Itzhak Perlman, Anne-Sophie Mutter, Lang Lang and Andr·s Schiff at Walt Disney Concert Hall to pop acts like Beyonce, Stevie Wonder, Lucinda Williams, Justin Timberlake, Dave Matthews and the Eagles, who are teaming up with the Dixie Chicks to become the opening concert at the Nokia Theater in downtown L.A. on Oct. 18.</p>
+              <p> The 7,100-seat theater is the centerpiece of L.A. Live, a 27-acre entertainment, residential and commercial complex opening later this year across from Staples Center. The complex includes a smaller venue — Club Nokia, which will accommodate about 2,400.</p>
+              <p> On Thursday, the American Music Awards announced it would hold its 35th anniversary show at the Nokia Theater on Nov. 18, with an ABC live broadcast marking the national TV debut of the venue.</p>
+              <p> What follows is really only the tip of the iceberg. We offer highlights and listings, but continue to go online at LA.COM for updates and more events.
+              <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div id="edge"><iframe src="arts_edge.html" name="iframesWindow" frameborder="0" height="600" width="800" scrolling="no" style="visibility:hidden;" onload="this.style.visibility='visible'">You need a Frames Capable browser to view this content.</iframe></div>
+      <div id="loader">
+        <img src="images/artsImage1Ray.jpg" width="348" height="242" alt="image 1" class="is-showing" />
+    	<img src="images/artsImage2Tug.jpg" width="348" height="242" alt="image 2"  />
+        <img src="images/artsImage3Phil.jpg" width="348" height="242" alt="image 3"  />
+        <img src="images/artsImage5Latina.jpg" width="344" height="232" alt="image 4"  />
+        <img src="images/artsImage6Singer.jpg" width="344" height="240" alt="image 5"  />
+        <img src="images/artsImage7Opera.jpg" width="344" height="242" alt="image 6"  /> 
+        <img src="images/artsImage8Dancer.jpg" width="346"height="243" alt="image 7"  /> 
+        <img src="images/artsFade.png" width="450" height="485" alt="image 8"  />
+        <img src="images/artsImage4Dali.png" width="348"height="242" alt="image 9"  />
+        <img src="images/arts_bg-scrollbar-thumb-y.png" width="13" height="480" alt="image 10"  />        
+        <img src="images/arts_bg-scrollbar-track-y.png" width="15" height="480" alt="image 11"  />
+        <img src="images/arts_bg-scrollbar-trackend-y.png" width="15" height="11" alt="image 12"  />
+        <!--Animation Files Below-->
+        <img src="images/leaf0001.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0002.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0003.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0004.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0005.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0006.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0007.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0008.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0009.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0010.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0011.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0012.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0013.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0014.png" width="5" height="5" alt="images"  />
+        <img src="images/leaf0015.png" width="5" height="5" alt="images"  />
+        
+    </div>
+</div>
+</body>
+</html>
+
+
